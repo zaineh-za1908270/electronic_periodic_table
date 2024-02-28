@@ -1,0 +1,25 @@
+/* CSS for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    width: 300px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.character-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}

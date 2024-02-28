@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Educational Website</title>
+    <!-- Link to CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Modal -->
+<div id="characterModal" class="modal">
+    <div class="modal-content">
+        <h2>Welcome to the Educational Website!</h2>
+        <p>Please select a character:</p>
+        <button class="character-btn" onclick="chooseCharacter('boy')">Boy</button>
+        <button class="character-btn" onclick="chooseCharacter('girl')">Girl</button>
+    </div>
+</div>
+
+<!-- Rest of your webpage content -->
+
+<!-- JavaScript to handle the modal -->
+<script>
+    // Get the modal element
+    const modal = document.getElementById('characterModal');
+
+    // Show the modal when the page loads
+    window.onload = function() {
+        modal.style.display = 'block';
+    };
+
+    // Function to handle character selection
+    function chooseCharacter(character) {
+        localStorage.setItem('selectedCharacter', character);
+        if (character === 'boy') {
+            window.location.href = 'home.html';
+        } else if (character === 'girl') {
+            window.location.href = 'home.html';
+        }
+    }
+</script>
+</body>
+</html>

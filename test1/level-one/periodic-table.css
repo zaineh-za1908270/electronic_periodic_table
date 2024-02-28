@@ -1,0 +1,302 @@
+small {
+    font-size: 60%;
+
+}
+
+.pure-table td, .pure-table th {
+    padding: 0.5em;
+}
+
+.table-responsive {
+    padding-right: 1em;
+}
+
+.table-responsive table {
+    width: 100%;
+    min-width: 35.5em;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+td.non-metals, .non-metals {
+    color: #222222;
+    background-color: #7daae2;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 0.1em 0;
+}
+
+td.semi, .semi {
+    color: #222222;
+    background-color: #f2ed6f;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 0.1em 0;
+}
+
+
+td.metals {
+    color: #222222;
+    background-color: rgba(85, 161, 89, 1);
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 0.1em 0;
+}
+
+
+td.lbl {
+    /*color: #222222;*/
+
+    background-color: #cccccc;
+    text-align: center;
+    padding: 0.1em 0.1em;
+}
+
+td.v {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.1em 0.1em;
+    border-style: none;
+    vertical-align: middle;
+}
+
+th.v {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.1em 0.1em;
+    border-style: none;
+    vertical-align: middle;
+}
+
+/* @end */
+
+/* @group Periodic Table */
+
+.at_num {
+    font-size: 0.75em;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+.e_name {
+    font-size: 0.6em;
+    padding: 0;
+    margin: 4px 0 0;
+    line-height: 1em;
+}
+
+.sym {
+    font-size: 1.1em;
+    padding: 0;
+    line-height: 1.1em;
+    margin: 0;
+    font-weight: bold;
+    border-style: none;
+}
+
+a.sym:link {
+    /*color: #011892;*/
+    color: black;
+}
+
+a.sym:visited {
+    color: #7e0b80;
+    text-decoration: none;
+}
+
+a.sym:hover {
+    color: #191c8b;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a.sym:active {
+    color: #dd99ff;
+    background-color: transparent;
+}
+
+.at_wt {
+    font-size: 0.6em;
+    padding: 0;
+    line-height: 1em;
+    margin: 2px 0 1px;
+}
+
+.name {
+    font-size: 0.5em;
+    padding: 0;
+    line-height: 1em;
+    margin: 2px 0 1px;
+}
+
+.pure-table, table.periodic-table {
+    border: 0px solid #fff;
+    margin: 0.2em;
+}
+
+td.asterisk {
+    color: #cc3300;
+    font-size: 0.8em;
+    vertical-align: middle;
+    border-style: none;
+}
+
+th.w5 {
+    /*color: #cc3300;*/
+    background-color: #fff;
+    width: 5%;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+th.w2 {
+    /*color: #cc3300;*/
+    background-color: #fff;
+    width: 1%;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+th.w8 {
+    background-color: #fff;
+    width: 6%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+th.lbl {
+    background-color: #fff;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+/* @end */
+
+/* @group Top Menu */
+
+/* -------------------------- * Top Menu Styles * -------------------------- */
+
+.pure-menu-selected .pure-menu-link, .pure-menu-selected .pure-menu-link:visited {
+    color: black;
+    font-weight: bold;
+}
+
+.home-menu {
+
+
+    /*padding: 0.5em; */
+    text-align: left;
+    box-shadow: none;
+}
+
+.home-menu {
+    background: #111111;
+}
+
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: #eeeeee;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: black;
+}
+
+.home-menu a {
+    color: #111111;
+}
+
+.home-menu li a:hover, .home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #0096ff;
+}
+
+.pure-menu-list {
+    vertical-align: bottom;
+}
+
+/* @end */
+
+/* @group Headings */
+
+h1 {
+    vertical-align: bottom;
+    line-height: 1.4em;
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+    color: black;
+}
+
+h2.z, h3.z {
+    color: #666;
+    background-color: #fff;
+}
+
+/* @end */
+
+/* For Webkit browsers (such as Chrome and Safari) */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+.center-image {
+    text-align: center; /* Center the content horizontally */
+    padding: 10px; /* Add spacing around the image */
+}
+
+.center-image img {
+    display: block;
+    margin: 0 auto; /* Center the image within its container */
+}
