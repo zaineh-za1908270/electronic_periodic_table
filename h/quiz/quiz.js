@@ -15,7 +15,7 @@ fetch('questions.json')
 
         // Create "Go to homepage" link
         const goHomeLink = document.createElement('a');
-        goHomeLink.href = "/new_pt/home/home.html";
+        goHomeLink.href = "../../home/home.html";
         goHomeLink.classList.add('go-home');
         goHomeLink.innerHTML = `
             <div class="arrow"></div>
