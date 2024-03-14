@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/electronic_periodic_table.iml" filepath="$PROJECT_DIR$/.idea/electronic_periodic_table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/new_pt.iml" filepath="$PROJECT_DIR$/.idea/new_pt.iml" />
     </modules>
   </component>
 </project>
