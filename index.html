@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sea Background with Sound Effect</title>
+    <title>Welcome to My Web App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="sea">
-    <!-- Your website content goes here -->
-    <h1>Welcome to my website!</h1>
-    <p>This is a website with a sea background and sound effect.</p>
+<div class="container">
+    <div class="video-wrapper">
+        <video controls autoplay>
+            <source src="intro_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="welcome-message">
+        <h1>بلمسة... لنبحر معًا في أعماق الجدول الدوري</h1>
+    </div>
+    <div>
+        <a href="/home/home.html" class="go-home">
+            <div class="arrow"></div>
+            <span>الذهاب للصفحة الرئيسة</span>
+        </a>
+
+    </div>
+
 </div>
-<audio id="sea-sound" autoplay loop>
-    <source src="sea_sound.mp3" >
-    Your browser does not support the audio element.
-</audio>
 </body>
 </html>
