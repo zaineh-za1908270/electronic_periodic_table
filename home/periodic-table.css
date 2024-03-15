@@ -110,11 +110,6 @@ a.sym:link {
     color: black;
 }
 
-a.sym:visited {
-    color: #7e0b80;
-    text-decoration: none;
-}
-
 a.sym:hover {
     color: #191c8b;
     text-decoration: underline;

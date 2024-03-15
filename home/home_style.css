@@ -26,3 +26,15 @@ main {
 h1, p {
     margin: 10px;
 }
+
+a{
+        pointer-events: none;
+        opacity: 0.6; /* Optional: Add visual indication that the link is disabled */
+        text-decoration: none;
+    color: black; /* Use the color inherited from the parent*/
+}
+
+.enabled-link {
+    pointer-events: auto;
+    opacity: 1;
+}

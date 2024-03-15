@@ -15,7 +15,7 @@ body {
 
 .box {
     width: 350px;
-    height: 250px;
+    height: 300px;
     margin-bottom: 5px;
     padding: 20px;
     border: 2px solid #333;
@@ -102,4 +102,21 @@ body {
     100% {
         transform: translateX(0);
     }
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit; /* Use the color inherited from the parent*/
+}
+
+.phet-button {
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 16px;
+    background-color: #5b7ca6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
